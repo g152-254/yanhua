@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="烟花" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="theme-color" content="#060a1c" />
+  <meta name="description" content="烟花 · 送给游若云" />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="icons/icon-180.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei&family=Noto+Sans+SC:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>烟花 · 送给游若云</title>
+</head>
+<body>
+  <canvas id="sky" aria-label="烟花夜空"></canvas>
+
+  <div class="overlay">
+    <header class="dedication">
+      <p class="brand">烟花</p>
+      <h1 id="message-title">致我最好的朋友游若云同学</h1>
+      <p id="message-body">愿你被温柔以待，烟花为你绽放</p>
+    </header>
+
+    <footer class="hint">
+      <span>轻触夜空放烟花</span>
+      <button type="button" id="install-btn" class="install-btn" hidden>添加到主屏幕</button>
+    </footer>
+  </div>
+
+  <script src="fireworks.js"></script>
+</body>
+</html>
