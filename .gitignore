@@ -1,0 +1,29 @@
+# Qt / build
+build/
+.qtcreator/
+*.pro.user
+*.user
+debug/
+release/
+Makefile*
+object_script.*
+ui_*.h
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+*.o
+*.obj
+*.exe
+*.dll
+
+# Deploy staging
+_deploy_stage/
+yanhua-deploy.zip
+yanhua-deploy.tar.gz
+部署信息.txt
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
